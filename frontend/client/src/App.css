@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.compo1 {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  background-color: #f5f6fc;
+  padding: 1rem;
+}
+
+.compo1__icon {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.compo1__text {
+  color: #1b4eff;
+  margin-left: 1rem;
+}
+
+.compo1__total {
+  margin-left: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #3c3c76;
+}
+
+.progressBarContainer {
+  width: 100%;
+  height: 8px;
+  margin-left: 0.8rem;
+  display: flex;
+  margin-bottom: 0.4rem;
+}
+
+.progressBar1Container {
+  width: 100%;
+  height: 8px;
+  border-radius: 1rem;
+}
+
+.progressBar1 {
+  background-color: #3c3c76;
+  width: 100%;
+  height: 8px;
+  border-radius: 1rem;
+}
+
+.progressBar2Container {
+  background-color: #dbdff1;
+  width: 100%;
+  height: 8px;
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+}
+
+.progressBar2 {
+  background-color: #ff708a;
+  width: 40%;
+  height: 8px;
+  border-radius: 1rem;
+}
+
+.compo2 {
+  display: flex;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.compo2_progresBarContainer {
+  width: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #dbdff1;
+  margin-right: 0.4rem;
+}
+
+.compo2_progressBar1 {
+  background-color: #ff708a;
+  height: 60%;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+}
+
+.compo2_progressBar2 {
+  background-color: #3c3c76;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.compo2__text {
+  font-size: 1.4rem;
+  color: #70709a;
+}
+
+.total-percentage {
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-right: 1rem;
+  color: #4b4b81;
+}
+
+.compo2__iconContainer {
+  display: flex;
+  align-items: flex-end;
+  color: #06b929;
+}
